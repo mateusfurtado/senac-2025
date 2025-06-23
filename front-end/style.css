@@ -1,22 +1,34 @@
 
 *{
-
-margin: 0%;
-padding: 0%;
-
+    margin: 0;
+    padding: 0;
 }
-
 
 html, body{
-width: 100%;
-min-height: 100vh;
-height: 100%;
-
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
 }
 
-#container {
-    background-color: rgb(82, 183, 230);
+#container{
+    background-color: cadetblue;
     width: 100%;
     min-height: 100%;
 
-    }
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#pos{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}
+
+.pos{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: blueviolet;
+}
