@@ -5,7 +5,7 @@
 
 html, body{
     width: 100%;
-    min-height: 100vh;
+    min-height: 1000vh;
     height: 100%;
 }
 
@@ -19,6 +19,7 @@ html, body{
     height: 100px;
     background-color: red;
     position: absolute;
+    bottom: calc(50%-50%);
     top: calc(50% - 50px);
     left: calc(50% - 50px);
 }

@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier;
 }
 
 html, body{
@@ -11,24 +12,47 @@ html, body{
 }
 
 #container{
-    background-color: cadetblue;
+    background-color: rgb(184, 215, 224);
     width: 100%;
     min-height: 100%;
 
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
 
-#pos{
-    width: 100px;
-    height: 100px;
-    background-color: tomato;
+h1{
+    padding: 5mm;
+    
+    font-weight: 600;
 }
 
-.pos{
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
-    background-color: blueviolet;
+.temas{
+    width: calc(100% - 100px);
+    max-width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.918);
+    border-radius: 10mm;
+    padding: 5mm;
+
+}
+
+h2,p{
+    padding-bottom: 5mm;
+}
+
+.botoes{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2mm;
+    padding-top: 5mm;
+    padding-bottom: 5mm;
+    border-radius: 5mm;
+}
+
+a{
+    padding: 2mm;
+    margin: 1mm;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2mm;
+    text-decoration: none;
+    color: black;
 }
