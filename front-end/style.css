@@ -22,8 +22,7 @@ html, body{
 }
 
 h1{
-    padding: 5mm;
-    
+    padding: 5mm;    
     font-weight: 600;
 }
 
@@ -41,14 +40,16 @@ h2,p{
 }
 
 .botoes{
+    display: flex;
+    flex-direction: row;
+
     border: 1px solid rgb(0, 0, 0);
-    padding: 2mm;
-    padding-top: 5mm;
-    padding-bottom: 5mm;
+    padding: 2mm; 
     border-radius: 5mm;
 }
 
 a{
+    display: flex;
     padding: 2mm;
     margin: 1mm;
     border: 1px solid rgb(0, 0, 0);
