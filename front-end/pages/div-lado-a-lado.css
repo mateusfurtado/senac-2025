@@ -7,6 +7,7 @@ html, body{
     width: 100%;
     height: 100%;
 
+
 }
 
 #container{
@@ -19,9 +20,9 @@ html, body{
     align-items: center;
 }
 
-.botoes{
+.botao{
     width: 300px;
     height: 300px;
-    margin: 5mm;
     background-color: blueviolet;
+    margin: 5mm;
 }
