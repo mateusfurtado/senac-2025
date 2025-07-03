@@ -14,6 +14,12 @@
 // container.innerHTML += `<button class="square">square</button>` // literal com valores
  
 
-
+var container = document.getElementById('container')
+container.innerHTML =  `<div id="card">
+            <div class="top"></div>
+            <div class="square"></div>
+            <p>O sangue do herói está mais próximo de Deus que a tinta dos filósofos e as orações dos devotos.</p>
+        </div>
+    </div>`
 
 

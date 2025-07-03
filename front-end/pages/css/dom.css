@@ -12,30 +12,60 @@ body {
     width: 100%;
     min-height: 100vh;
     height: 100%;
-}
-
-#container {
-    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+
+}
+
+#card {
+    width: 300px;
+    padding: 5mm;
+    margin: 2rem;
+    color: #ffffff;
+    box-shadow: 0 0 20px rgba(16, 76, 243, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5mm;
+    border-radius: 15mm;
+
 }
 
 .top {
     width: 300px;
     height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
+    border-radius: 10mm;
     background-color: rgb(201, 15, 160);
+    background-image: url("../../images/Représentation_de_Julius_Evola.jpg");
+    background-size: cover;
 }
 
 .square {
     width: 80px;
     height: 80px;
-    display: flex;
     border-radius: 50%;
-    background-color: brown;
+    background-color: rgb(201, 15, 160);
+    background-image: url("../../images/images.jpg");
+    background-size: cover;
 }
+
+p{
+    width: 184px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
