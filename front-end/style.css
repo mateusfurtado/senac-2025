@@ -15,10 +15,10 @@ html, body{
     background-color: rgb(184, 215, 224);
     width: 100%;
     min-height: 100%;
-
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: radial-gradient(circle,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%)
 }
 
 h1{
@@ -53,8 +53,8 @@ a{
     display: flex;
     padding: 2mm;
     margin: 1mm;
-    border: 1px solid rgb(139, 136, 136);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 2mm;
     text-decoration: none;
-    color: rgb(0, 132, 255);
+    color: rgb(0, 0, 0);
 }

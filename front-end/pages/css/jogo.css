@@ -14,10 +14,29 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(circle,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%)
+}
+.game-container{
+    width: 540px;
+    height: 540px;
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 10px;
 }
 .square{
-    margin: 5mm;
     width: 80px;
     height: 80px;
+    border-radius: 10px;
     background-color: rgb(29, 135, 36);
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }

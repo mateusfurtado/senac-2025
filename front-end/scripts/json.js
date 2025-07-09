@@ -1,6 +1,8 @@
 //JSON = Javascript Object Notation
 
-var pessoa = {
+function json(){
+
+    var pessoa = {
     "nome": "Evola",
     "foto": "http://...",
     "post": "http://...",
@@ -55,3 +57,5 @@ var produtos =
 
     console.log(produtos[2]) // para acessar um item da lista
     // utilizando o index(lista[x])
+
+}
