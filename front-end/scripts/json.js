@@ -19,7 +19,7 @@ pessoa.nome = "Evolution"
 // o atributo e utilizando o operador de atribuição para definir o
 // novo valor.
 
-var produto = {
+var produtos = {
     "nome": "celular 01",
     "id": "0",
     "descricao": "descricao",
