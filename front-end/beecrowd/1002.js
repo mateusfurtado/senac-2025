@@ -2,7 +2,7 @@ var input = require('fs').readFileSync('/Users/Aluno/Documents/Mateus - Programa
 var lines = input.split('\n');
 
 var a = parseInt(lines[0])
-var b = parseInt(lines[1])
 
 let pi = 3.14159
+n = pi*
 console.log('A = '+12.5664)
